@@ -1,0 +1,21 @@
+Here are the methods provided by the QTableWidget class:
+
+setRowCount(): This method is used to define the number of rows you want in
+Table Widget
+setColumnCount(): This method is used to define the number of columns
+required in Table Widget
+rowCount(): This method returns the number of rows in the table
+columnCount(): This method returns the number of columns in the table
+clear(): This method clears the entire table
+setItem(): This method sets the content for a given row and column of the table
+
+
+
+Here are the methods provided by the QTableWidgetItem class:
+
+setFont(): This method sets the font for the text label of the Table Widget item
+setCheckState(): This method passes the Boolean value True to this method
+to check the table item and passes the value False to uncheck the Table Widget
+item
+checkState(): This method returns the Boolean value as True if the Table
+Widget item is checked, or otherwise returns False

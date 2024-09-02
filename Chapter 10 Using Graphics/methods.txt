@@ -1,0 +1,16 @@
+For drawing and painting in Python, we will be making use of several classes. The most
+important of them is the QPainter class. This class is used for painting. It can draw lines, rectangles, circles, and complex shapes.
+
+Several methods of the QPainter class are used in this chapter to draw different shapes. A
+few of them are listed here:
+QPainter::drawLine(): This method is used for drawing a line between two
+sets of x and y coordinates
+QPainter::drawPoints(): This method is used for drawing a point at a
+location specified through the supplied x and y coordinates
+QPainter::drawRect(): This method is used for drawing a rectangle between
+two sets of x and y coordinates
+QPainter::drawArc(): This method is used for drawing an arc from the
+specified center location, between two specified angles, and with a specified
+radius
+QPainter::drawText(): This method is used for drawing text in a specified
+font style, color, and size

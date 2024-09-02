@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>200</y>
+      <width>401</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QToolBar" name="toolBar">
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actionPlus"/>
+   <addaction name="actionMinus"/>
+   <addaction name="actionDivide"/>
+   <addaction name="actionMultiply"/>
+  </widget>
+  <action name="actionPlus">
+   <property name="icon">
+    <iconset resource="tmpresource.qrc">
+     <normaloff>:/icon images/Icons to add to the project/plus.ico</normaloff>:/icon images/Icons to add to the project/plus.ico</iconset>
+   </property>
+   <property name="text">
+    <string>Plus</string>
+   </property>
+   <property name="toolTip">
+    <string>Plus</string>
+   </property>
+  </action>
+  <action name="actionMinus">
+   <property name="icon">
+    <iconset resource="tmpresource.qrc">
+     <normaloff>:/icon images/Icons to add to the project/minus.ico</normaloff>:/icon images/Icons to add to the project/minus.ico</iconset>
+   </property>
+   <property name="text">
+    <string>Minus</string>
+   </property>
+   <property name="toolTip">
+    <string>Minus</string>
+   </property>
+  </action>
+  <action name="actionDivide">
+   <property name="icon">
+    <iconset resource="tmpresource.qrc">
+     <normaloff>:/icon images/Icons to add to the project/divide.ico</normaloff>:/icon images/Icons to add to the project/divide.ico</iconset>
+   </property>
+   <property name="text">
+    <string>Divide</string>
+   </property>
+   <property name="toolTip">
+    <string>Divide</string>
+   </property>
+  </action>
+  <action name="actionMultiply">
+   <property name="icon">
+    <iconset resource="tmpresource.qrc">
+     <normaloff>:/icon images/Icons to add to the project/multiply.ico</normaloff>:/icon images/Icons to add to the project/multiply.ico</iconset>
+   </property>
+   <property name="text">
+    <string>Multiply</string>
+   </property>
+   <property name="toolTip">
+    <string>Multiply</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="tmpresource.qrc"/>
+ </resources>
+ <connections/>
+</ui>

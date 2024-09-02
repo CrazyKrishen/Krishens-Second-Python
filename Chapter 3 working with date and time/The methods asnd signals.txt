@@ -1,0 +1,46 @@
+The methods provided by QLCDNumber are as follows:
+setMode(): This method is used to change the base of the numbers. Available
+options are as follows:
+Hex: This option is used to display hexadecimal digits
+Dec: This option is used to display decimal digits
+Oct: This option is used to display octal digits
+Bin: This option is used to display binary digits
+display(): This method is used to display the supplied data in LCD digit format.
+value(): This method returns the numerical value displayed by the LCD Number
+widget.
+
+
+
+The timeout() signal can be configured or adjusted using the following methods:
+start(n): It compels the timer to generate the timeout() signal at n millisecond
+intervals
+setSingleShot(true): It constrains the timer to generate the timeout() signal
+only once
+singleShot(n): It makes the timer generate a timeout() signal only once, and
+that too after n milliseconds
+
+Before we go ahead and make an application, we need to understand one more class,
+QTime, which is used to fetch and measure system clock time. The QTime class not only helps in reading the current time from the system clock but also provides all clock time function. It shows time in terms of hours, minutes, seconds, and
+milliseconds since midnight. The timereturned by the QTime class is in 24-hour format.
+The methods provided by the QTime class
+are as follows:
+currentTime(): This method accesses the system clock time and returns it as a
+QTime object
+hour(): This method returns the number of hours
+minute(): This method returns the number of minutes
+seconds(): This method returns the number of seconds
+msec(): This method returns the number of milliseconds
+addSecs(): This method returns the time after adding the specified number of
+seconds
+addMSecs(): This method returns the time after adding the specified number of
+milliseconds
+secsTo(): This method returns the difference in the number of seconds between
+two QTime objects
+msecsTo(): This method returns the difference in the number of milliseconds
+between two times
+
+
+
+We want the displayed system clock time to be updated automatically. For this, we need to
+implement timers.
+

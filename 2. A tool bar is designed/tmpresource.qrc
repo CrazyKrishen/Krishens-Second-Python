@@ -1,0 +1,8 @@
+<RCC>
+  <qresource prefix="icon images">
+    <file>Icons to add to the project/plus.ico</file>
+    <file>Icons to add to the project/multiply.ico</file>
+    <file>Icons to add to the project/divide.ico</file>
+    <file>Icons to add to the project/minus.ico</file>
+  </qresource>
+</RCC>
